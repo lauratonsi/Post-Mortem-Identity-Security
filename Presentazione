@@ -1,0 +1,312 @@
+\documentclass{beamer}
+
+% Font settings for PDFLaTeX
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{ragged2e}
+\definecolor{blue}{rgb}{0, 0, 0} % Black color for text
+
+\usepackage[italian]{babel}
+
+% Aggiungi questi pacchetti e impostazioni
+\usepackage{etoolbox}
+
+% Modifica il template per mostrare i numeri delle sezioni
+\makeatletter
+\setbeamertemplate{section in toc}{%
+  \leavevmode\leftskip=1.75ex%
+  \llap{\inserttocsectionnumber.\kern1ex}%
+  \inserttocsection\par%
+}
+\setbeamertemplate{subsection in toc}{%
+  \leavevmode\leftskip=3.5ex%
+  \llap{\inserttocsubsectionnumber.\kern1ex}%
+  \inserttocsubsection\par%
+}
+\makeatother
+
+% Theme settings
+\usetheme{default} % or any other theme you prefer
+\setbeamertemplate{footline}[frame number]
+\usepackage{hyperref}
+\usepackage{xurl}
+
+\title{\textbf{\textcolor{white}{OLTRE LA MORTE: \\ la trasformazione digitale della memoria \\ e della privacy}}}
+\author{\textit{\textcolor{lightgray}{Laura Tonsi }}}
+\usepackage{background}
+\usepackage{tikz}
+
+\begin{document}
+
+% Slide con sfondo personalizzato
+{
+\usebackgroundtemplate{
+    \begin{tikzpicture}[remember picture,overlay]
+        \node[inner sep=0pt,outer sep=0pt] at (current page.center) {
+            \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio=false]{resurrezione/20250409_1428_Digital Awakening_remix_01jrd8b5twfwgrcz184gvq3d1c.png}
+        };
+        \fill[black, opacity=0.5] (current page.south west) rectangle (current page.north east);
+    \end{tikzpicture}
+}
+\begin{frame}[plain]
+    \titlepage
+\end{frame}
+}
+
+% Slide con indice
+\begin{frame}{\textbf{INDICE}}
+\tableofcontents
+\end{frame}
+
+% Slide sezione 1
+\section{INTRODUZIONE}
+\begin{frame}{\textbf{INTRODUZIONE}}
+\justifying
+La nostra vita quotidiana è ormai inseparabile dal digitale: social, email, cloud, dispositivi smart.
+\justifying
+\begin{itemize}
+    \justifying
+    \item Lasciamo online una \textbf{traccia costante} della nostra esistenza.
+\end{itemize}
+\textbf{Ma cosa succede ai nostri dati dopo la morte?}
+    \begin{itemize}
+    \item La digitalizzazione ha aperto nuove sfide:
+        \begin{itemize}
+            \item etiche (\textit{chi ha diritto a gestirli?}),
+            \item legali (\textit{chi ne è il proprietario?}),
+            \item tecnologiche (\textit{cosa può essere ricostruito?}).
+        \end{itemize}
+    \end{itemize}
+\justifying
+Il concetto di \textbf{eredità digitale} evolve verso quello di \textbf{presenza digitale post-mortem}.
+\end{frame} 
+
+\section{I 4 PILASTRI}
+\begin{frame}{\textbf{I 4 PILASTRI}}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{20250410_1534_Dati e Legami Digitali_simple_compose_01jrfye0mhe6aa21kzbacrhgra.png}
+\end{figure}
+\end{frame}
+
+% Slide sezione 2
+\section{IL PATRIMONIO DIGITALE POST-MORTEM}
+\begin{frame}{\textbf{IL PATRIMONIO DIGITALE POST-MORTEM}}
+    \justifying
+    Il \textbf{patrimonio digitale post-mortem} comprende tutti i dati che una persona lascia dietro di sé online dopo la morte. \\
+    Si tratta di contenuti quali: 
+    \begin{enumerate}
+        \item post, 
+        \item messaggi, email,
+        \item video, foto, 
+        \item file archiviati nel cloud, 
+        \item cronologia di navigazione. 
+        \end{enumerate} 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.43\linewidth]{resurrezione/ED29BCAC-ED7D-41E6-AB4E-58C0E787FB1D.jpeg}
+\end{figure}
+\end{frame}
+
+% Slide con elenco
+\section{COSA VOGLIONO DAVVERO GLI UTENTI?}
+\begin{frame}{\textbf{COSA VOGLIONO DAVVERO GLI UTENTI?}}
+    \justifying
+    Le preferenze degli utenti rispetto al destino dei propri dati digitali dopo la morte \textbf{non sono univoche}. 
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.7\linewidth]{resurrezione/Screenshot 2025-04-06 alle 19.00.46.png}
+    \end{figure}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\linewidth]{resurrezione/Screenshot 2025-04-06 alle 19.01.13.png}
+    \end{figure}
+    \begin{itemize}
+    \justifying
+        \item Questi dati suggeriscono che la sensibilità verso la privacy post-mortem è fortemente influenzata dalle norme sociali e culturali.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{} 
+   \justifying
+   Alcuni servizi online offrono oggi opzioni di \textbf{gestione post-mortem}: 
+   \begin{itemize}
+   \justifying
+       \item \textbf{Facebook} = consente di trasformare un profilo in memoriale; 
+       \item \textbf{Google} = permette di designare contatti fidati per la gestione dell'account attraverso lo strumento Inactive Account Manager. 
+   \end{itemize}
+   \justifying
+   Tuttavia, questi strumenti \textbf{non} risolvono completamente i dilemmi connessi all'eredità digitale, soprattutto in assenza di istruzioni esplicite da parte del defunto.
+   \begin{figure}
+       \centering
+       \includegraphics[width=0.50\linewidth]{resurrezione/20250409_1753_Esempio Profilo Memoriale_simple_compose_01jrdm406megvbm3ea9bp35ev1.png}
+       \caption{Esempio di profilo Facebook memoriale}
+   \end{figure}
+\end{frame}
+
+\section{LE PERSONALITÀ DIGITALI IMMORTALI}
+\begin{frame}{\textbf{LE PERSONALITÀ DIGITALI IMMORTALI}}
+    \justifying
+    La vera rivoluzione è rappresentata dalla possibilità di creare \textbf{personalità digitali immortali}, ricostruzioni digitali dei defunti basate su una grande quantità di dati raccolti in vita. \\ L'obiettivo non è solo ricordare, ma \textbf{simulare la loro presenza}: linguaggio, tono, risposte emotive. \\ Esistono due tecnologie principali: 
+    \begin{enumerate}
+        \justifying
+        \item \textbf{Thanabots (o deadbots)}: chatbot che imitano il modo di scrivere e parlare del defunto. L'utente può chattare con loro come se fosse ancora in vita. Si basano sull'\textbf{analisi linguistica} dei messaggi lasciati online.
+        \item \textbf{Avatar iper-realistici}: rappresentazioni grafiche o olografiche che riproducono l'aspetto fisico, la voce e i movimenti del defunto. Possono apparire in video o in realtà aumentata, generando un effetto di \textbf{presenza viva}. 
+    \end{enumerate}
+    Queste tecnologie trasformano i dati in simulazioni con cui è possibile interagire: un fenomeno nuovo, che ridefinisce il concetto stesso di assenza.   
+\end{frame}
+
+\section{COME FUNZIONA LA RESURREZIONE DIGITALE?}
+\begin{frame}{\textbf{COME FUNZIONA LA RESURREZIONE DIGITALE?}}
+    \justifying
+    Il processo che porta alla creazione di una personalità digitale immortale si sviluppa in \textbf{tre fasi principali} : 
+    \begin{enumerate}
+        \justifying
+        \item \textbf{RACCOLTA DEI DATI} : tutto ciò che l'utente ha lasciato online viene analizzato e aggregato, dai post sui social ai messaggi privati.
+        \item \textbf{MODELLAZIONE TRAMITE IA} : il sistema apprende il modo di parlare, scrivere e comportarsi dell'individuo, cercando di ricostruirne la personalità.
+        \item \textbf{INTERAZIONE} : possibilità di dialogare con il defunto tramite chat, video o addirittura avatar 3D - ologrammi.
+    \end{enumerate}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.80\linewidth]{resurrezione/B4DB06DC-A060-4E97-A4C2-71D8DEF06E21.jpeg}
+    \end{figure}
+\end{frame}
+
+\section{ESEMPI REALI DI DIGITAL RESURRECTION}
+\begin{frame}{\textbf{ESEMPI REALI DI DIGITAL RESURRECTION}} 
+    \begin{itemize}
+    \justifying
+        \item \textbf{\href{https://www.eter9.com}{Eter9}} : social network basato sull'intelligenza artificiale. Mentre l'utente è in vita, l'IA impara il suo modo di scrivere, commentare e interagire. Dopo la morte, la "controparte" continua a pubblicare contenuti al suo posto. 
+        \item \textbf{\href{https://www.lifenaut.com}{LifeNaut}} : gli utenti rispondono a un questionario di oltre 480 domande, caricano foto, video e audio. I dati vengono utilizzati per creare una versione digitale dell'individuo. 
+            \begin{itemize}
+            \justifying
+                \item Possibilità di costruire \textbf{robot bioispirati} che emulano voce e gesti della persona scomparsa.
+            \end{itemize}
+        \item \textbf{\href{https://patents.google.com/patent/US10853717B2/en}{Microsoft Patent (2021)}} : brevetto per la creazione di chatbot capaci di imitare persone reali, vive o defunte. Il sistema raccoglie dati da social media, conversazioni e altri contenuti per creare un assistente virtuale con la personalità e il modo di parlare dell'individuo. Prevede anche l'uso di immagini e video per animare l'interfaccia del chatbot. 
+    \end{itemize}
+\end{frame}
+
+\section{I VANTAGGI}
+\begin{frame}{\textbf{I VANTAGGI}}
+    \justifying
+    Le tecnologie di digital resurrection possono offrire diversi \textbf{vantaggi}: 
+    \begin{enumerate}
+        \justifying
+        \item \textbf{SUPPORTO EMOTIVO} : poter "parlare" ancora con un proprio caro può aiutare alcune persone ad affrontare meglio la perdita. 
+        \item \textbf{MEMORIA} : la conservazione della memoria diventa molto più ricca e accessibile, permettendo di lasciare alle generazioni future una testimonianza viva e interattiva. 
+        \item \textbf{INNOVAZIONE} : queste tecnologie aprono nuove opportunità commerciali, in settori come l'intrattenimento o il marketing, ad esempio con ologrammi di celebrità defunte utilizzati per concerti, film o pubblicità. 
+    \end{enumerate}
+\end{frame}
+
+\section{I RISCHI}
+\begin{frame}{\textbf{I RISCHI}}
+    \begin{enumerate}
+    \justifying
+        \item \textbf{CONSENSO} : molti di questi sistemi usano dati di persone che non hanno mai autorizzato esplicitamente la loro "resurrezione" digitale. 
+        \item \textbf{AUTENTICITA'} : un algoritmo, per quanto sofisticato, non è una persona e il rischio è di generare versioni distorte o "deepfake" del defunto. 
+        \item \textbf{RISCHIO EMOTIVO} : il contatto continuo con avatar o chatbot può ostacolare l'elaborazione del lutto, generando attaccamenti patologici o un'illusione di presenza eterna. 
+        \item \textbf{USO COMMERCIALE} : sempre più spesso, i dati e le immagini dei defunti vengono usati a scopo di lucro. Le aziende possono monetizzare la memoria e l'immagine dei defunti \textit{senza un consenso esplicito}, trasformando il lutto in intrattenimento o marketing.
+    \end{enumerate}    
+\end{frame}
+
+\section{COSA DICE LA NORMATIVA?}
+\begin{frame}{\textbf{COSA DICE LA NORMATIVA?}}
+    \justifying 
+    A livello normativo, il tema è ancora poco regolato. Il \textbf{GDPR} non si applica direttamente ai dati dei defunti (Considerando 27).
+    \begin{itemize}
+    \justifying
+        \item In Italia, però, è intervenuto l'\textbf{articolo 2-terdecies del Codice Privacy} (D.Lgs. 196/2003, modificato dal D.Lgs. 101/2018), che stabilisce che alcuni diritti (accesso, cancellazione, ecc.) possono essere esercitati da: 
+            \begin{itemize}
+                \item Chi ha un interesse proprio; 
+                \item Chi agisce come mandatario del defunto; 
+                \item Chi agisce per ragioni familiari meritevoli di protezione. 
+            \end{itemize}
+    \justifying
+    \item Tuttavia, se la persona defunta ha vietato \textbf{espressamente e per iscritto} che i suoi dati vengano trattati dopo la morte, questo divieto prevale. La legge italiana chiarisce che tale opposizione vale \textbf{solo per i servizi digitali}, come social network, email o piattaforme online. 
+    \item \textbf{PROBLEMA} : molti utenti non lasciano istruzioni scritte, quindi il consenso all'uso post-mortem dei dati rimane spesso implicito o non espresso.
+    \end{itemize}
+\end{frame}  
+
+\section{IL BUSINESS DELLA MEMORIA}
+\begin{frame}{\textbf{IL BUSINESS DELLA MEMORIA}}
+    \justifying
+    Negli ultimi anni è emersa una nuova e crescente industria: la \textbf{Digital Afterlife Industry (DAI)}. Questa industria si occupa di: 
+    \begin{enumerate}
+    \justifying
+        \item gestione dei dati post-mortem; 
+        \item creazione di presenze digitali immortali. 
+    \end{enumerate} 
+    \justifying
+    Il mercato include una varietà di servizi destinati a chi cerca di \textbf{preservare la memoria dei defunti}. 
+    \\ \textbf{Alcuni dei servizi} : 
+    \begin{itemize}
+        \justifying
+        \item \textbf{Creazione di memoriali digitali permanenti}: profili social trasformati in memoriali, archiviazione di contenuti personali. 
+        \item \textbf{Chatbot e avatar interattivi}: riproduzioni digitali delle persone scomparse per simulare interazioni.
+        \item \textbf{Archiviazione digitale a lungo termine}: piattaforme che conservano e organizzano i dati per le generazioni future.
+        \item \textbf{Ologrammi di celebrità}: eventi dal vivo, concerti e apparizioni pubbliche tramite ologrammi. 
+    \end{itemize}    
+\end{frame}
+
+\begin{frame} 
+    \justifying
+    Tuttavia, l'espansione di questo mercato solleva anche \textbf{questioni etiche} rilevanti: 
+    \begin{itemize}
+        \justifying
+        \item \textbf{Ologrammi di celebrità}: ologrammi di artisti defunti  (es. Tupac, Whitney Houston) generano profitti, ma spesso senza consenso delle famiglie. 
+            \begin{itemize}
+                \item Dubbi su chi controlli e quanto sia autentica la loro "persona digitale". 
+            \end{itemize} 
+        \item \textbf{Caso Snapchat (2016)}: introduzione di un filtro che imitava il volto di un giovane defunto, senza l'autorizzazione della famiglia. 
+          \begin{itemize}
+            \item Proteste pubbliche e legali per il rispetto della memoria e della dignità della persona scomparsa.
+         \end{itemize} 
+    \end{itemize}
+    In un mondo in cui le personalità digitali possono essere ricreate e utilizzate a scopo commerciale, \textbf{chi ha il diritto di decidere come vengono usati i dati di una persona defunta?} \\ Senza un chiaro quadro legale e senza il consenso esplicito del defunto, \textbf{c'è il rischio che la memoria diventi un prodotto da monetizzare.} 
+\end{frame}
+
+\section{LA POSTMORTAL SOCIETY}
+\begin{frame}{\textbf{LA POSTMORTAL SOCIETY}}
+    \justifying
+    Stiamo entrando in una \textbf{Postmortal Society}: 
+    \begin{itemize}
+        \item società in cui la morte non rappresenta più un punto finale, ma una \textit{transizione verso una nuova forma di esistenza digitale}. 
+    \end{itemize} In questo contesto, \textbf{la morte fisica non implica la scomparsa totale di un individuo}. 
+    \begin{itemize}
+        \justifying
+        \item La digitalizzazione cambia la \textbf{percezione della mortalità}, trasformando la morte da un evento definitivo a una transizione. 
+        \item Questo solleva domande su \textit{cosa significhi essere vivi in un contesto digitale}.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.65\linewidth]{resurrezione/26D26F3C-4BDF-41D5-A5E0-C7CF1976EA10.jpeg}
+    \end{figure}
+\end{frame}      
+
+\section{CONCLUSIONI}
+\begin{frame}{\textbf{CONCLUSIONI}}
+    \justifying
+    \textbf{La gestione dei dati post-mortem e la creazione di personalità digitali immortali rappresentano un passo fondamentale nella trasformazione digitale della nostra società.} \\Mentre la digitalizzazione avanza, il nostro rapporto con la morte e la memoria si evolve:
+    \begin{itemize}
+    \justifying
+        \item Le innovazioni aprono nuove strade per l'uso dei dati, spingendo i limiti di ciò che significa "essere vivo" in un mondo digitale.
+        \item La continua raccolta di dati solleva interrogativi cruciali sulla privacy, il consenso e la proprietà digitale. 
+        \item La creazione di memorie digitali e la possibilità di interagire con "presenze" digitali dei defunti non solo offre un supporto emotivo ai vivi, ma potrebbe anche contribuire a una nuova forma di storia collettiva digitale. 
+    \end{itemize} 
+Concludendo, la trasformazione digitale non si limita alla tecnologia, ma implica un'\textbf{evoluzione culturale} che ridefinisce la nostra relazione con il tempo, la memoria e la morte.  
+\end{frame}
+
+
+
+
+\section{{BIBLIOGRAFIA}}
+\begin{frame}{\textbf{BIBLIOGRAFIA}}
+\begin{enumerate}
+    \justifying
+    \item {Nakagawa, Hiroshi, and Akiko Orita. \href{https://link.springer.com/article/10.1007/s00146-022-01549-1#citeas}{"Using Deceased People's Personal Data."} \textit{AI & Society}, vol. 39, 2024, pp. 1151-69. SpringerLink, \href{https://doi.org/10.1007/s00146-022-01549-1}{https://doi.org/10.1007/s00146-022-01549-1}} 
+    \item Rodríguez Reséndiz, Hugo, and Juvenal Rodríguez Reséndiz. \href{https://www.mdpi.com/2409-9287/9/3/71}{"Digital Resurrection: Challenging the Boundary Between Life and Death with Artificial Intelligence." }\textit{Philosophies}, vol. 9, no. 3, 2024, p. 71. MDPI, \href{https://doi.org/10.3390/philosophies9030071}{https://doi.org/10\3390/philosophies\\9030071 } 
+    \item Özdemir, Vural, et al. \href{https://pubmed.ncbi.nlm.nih.gov/34191613/}{"Thanatechnology and the Living Dead: New Concepts in Digital Transformation and Human-Computer Interaction."} OMICS: A Journal of Integrative Biology, vol. 25, no. 7, 2021, pp. 403-08. Mary Ann Liebert, Inc., DOI: \href{https://doi.org/10.1089/omi.2021.0100}{10.1089/omi.2021.0100} 
+    \item \href{http://www.unilad.co.uk/}{"Snapchat's Controversial Use of a Filter with a Deceased Person's Face." Unilad, 2016} 
+\end{enumerate}
+\end{frame}
+\end{document}
